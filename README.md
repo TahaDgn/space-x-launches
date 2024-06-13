@@ -2,7 +2,11 @@
 
 I would like to thank my esteemed lecturer, Dr. Fehim Köylü, for his invaluable contributions to our project.
 
+In this project, the use of "hero" animations was abandoned due to compatibility concerns, and "scale transform" animations were preferred instead. You can see this effect during page transitions on the main page. While the main page is being built, the service that fetches information about the latest launch from SpaceX's API is called asynchronously. The retrieved data is then parsed and converted into a model. The data from the model is directed to the necessary pages and displayed as a list.
+
 Değerli Hocam Dr. Öğretim Üyesi Fehim Köylü'ye, bize kattıklarından dolayı teşekkür ederim.
+
+Bu projede, uygunluk kaygıları nedeniyle "hero" animasyonları yerine "scale transform" animasyonları tercih edilmiştir. Bu etkiyi ana sayfada sayfalar arası geçişlerde görebilirsiniz. Ana sayfa oluşturulurken, SpaceX'in API'sinden son fırlatmayla alakalı bilgileri çeken servis asenkron olarak çağrılmaktadır. Gelen veriler parse edilerek modele çevrilmekte ve modelden gelen veriler, gerekli sayfalara yönlendirilerek liste olarak gösterilmektedir.
 
 ## Overview / Genel Bakış
 
